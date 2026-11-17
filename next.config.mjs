@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   devIndicators: false,
+  logging: {
+    browserToTerminal: false,
+  },
   turbopack: {
     rules: {
       "*.css": {

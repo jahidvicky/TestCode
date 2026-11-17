@@ -16,8 +16,8 @@ const socials = [
 ];
 
 export default function LoginForm({ onLogin }) {
-  const [username, setUsername] = useState("user");
-  const [password, setPassword] = useState("user123");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   function onSubmit(e) {
